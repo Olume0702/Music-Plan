@@ -1,0 +1,218 @@
+*{
+margin: 0px;
+padding: 0px;
+font-family: Arial, Helvetica, sans-serif;
+  }
+  @media only screen and (min-width: 320px) {
+    .App {
+      text-align: center;
+      padding-top: rem;
+      
+    }
+    body{
+      background-image:url(./assets/pattern-background-desktop.svg);
+      background-repeat:no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    img{height: 250px;
+      width: 400px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      /* margin-left: 29.7rem; */
+      
+      margin-bottom: 0.7rem;
+    }
+     
+      
+    .main{
+      background-color: white;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      width: 400px;
+      height:350px;
+      /* border: 1px solid red;  */
+      margin-top: -1rem;
+      /* margin-left: 29.7rem; */
+     padding-top: 2rem;
+      
+    }
+    .first{margin-top: -1rem;
+      display: flex;
+      flex-direction: row;
+      background-color: rgb(236, 235, 234);
+      border:none;
+      padding-top: 0.5rem;
+      height: 3rem;
+      width: 22rem;
+      margin-left: 1.5rem;
+      /* justify-content: center; */
+      
+    }
+    #icon{
+      height: 40px;
+      width: 40px;
+      margin-left: 3rem;
+    }
+    .second{
+      margin-left: 1rem;
+    }
+    
+    h4{padding: 0px;
+      font-weight: 400px;
+      font-size: 13px;
+      
+    }
+    p{
+      margin-top: 15px;
+      margin-bottom: 40px;
+      font-size: 15px;
+      font-weight: 500;
+      color: gray;
+    }
+    
+    
+    .btn2{
+      margin-top: 20px;
+      margin-bottom: 50px;
+      border-style: none;
+      width:300px;
+      height: 40px;
+      font-size: 15px;
+      background-color:rgba(5, 5, 104, 0.808);
+      color: white;
+      border-radius: 5px;
+      cursor:pointer ;
+    }
+    
+    .btn3{
+      margin-top: 10px;
+      margin-bottom: 50px;
+      border-style: none;
+      font-weight: 600;
+      color: grey;
+      font-size: 14px;
+      background-color: transparent;
+      
+    }
+    .btn1{
+      border-style: none;
+      margin-left: 7rem;
+      padding-top: 1rem;
+      color: black;
+      background-color: transparent;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .btn1:hover{color: red;
+      font-size: 15px;
+    
+    }
+    .btn1:after{color: green;
+      }
+
+  }
+
+  @media only screen 
+   and (min-width : 1200px) {
+    .App {
+      text-align: center;
+      padding-top: 3rem;
+    }
+    body{
+      background-image:url(./assets/pattern-background-desktop.svg);
+      background-repeat:no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    img{height: 250px;
+      width: 400px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    margin-left: -0.0rem;}
+     
+      
+    .main{
+      background-color: white;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+      width: 400px;
+      height:350px;
+      /* border: 1px solid red; */
+      margin-top: -1rem;
+      margin-left: 29.7rem;
+     padding-top: 2rem;
+      
+    }
+    .first{margin-top: -1rem;
+      display: flex;
+      flex-direction: row;
+      /* justify-content: center; */
+      
+    }
+    #icon{
+      height: 40px;
+      width: 40px;
+      margin-left: 3rem;
+    }
+    .second{
+      margin-left: 1rem;
+    }
+    
+    h4{padding: 0px;
+      font-weight: 400px;
+      font-size: 13px;
+      
+    }
+    p{
+      margin-top: 15px;
+      margin-bottom: 40px;
+      font-size: 15px;
+      font-weight: 500;
+      color: gray;
+    }
+    
+    
+    .btn2{
+      margin-top: 20px;
+      margin-bottom: 50px;
+      border-style: none;
+      width:300px;
+      height: 40px;
+      font-size: 15px;
+      background-color:rgba(5, 5, 104, 0.808);
+      color: white;
+      border-radius: 5px;
+      cursor:pointer ;
+    }
+    
+    .btn3{
+      margin-top: 10px;
+      margin-bottom: 30px;
+      border: none;
+      font-weight: 600;
+      color: grey;
+      font-size: 14px;
+      background-color: transparent;
+      
+    }
+    .btn1{
+      border-style: none;
+      margin-left: 7rem;
+      margin-top: -3rem;
+      color: black;
+      background-color: transparent;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .btn1:hover{color: red;
+      font-size: 15px;
+    
+    }
+    .btn1:after{color: green;
+      }
+
+   }
+
